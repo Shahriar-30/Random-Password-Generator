@@ -1,0 +1,29 @@
+@media (max-width:550px) {
+    body{
+        padding: 20% 5%;
+    }
+    html{
+        font-size: 50%;
+    }
+    .continer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .continer .box{
+        margin-top: 3.5rem;
+        margin-bottom: 5.5rem;
+    }
+}
+@media (max-width:550px) {
+    .continer .box{
+        width: 35rem;
+    }
+}
+@media (max-width:305px) {
+    .continer .box{
+        width: 30rem;
+    }
+}
